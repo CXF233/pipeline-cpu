@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_riscv_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_riscv_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="174801fs"></ZoomEndTime>
+      <Cursor1Time time="157740fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="201"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/tb_riscv_top/uut/rom_addr" type="array">
+      <obj_property name="ElementShortName">rom_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/ALU_DB" type="array">
+      <obj_property name="ElementShortName">ALU_DB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_DB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/ALU_result_ex_o" type="array">
+      <obj_property name="ElementShortName">ALU_result_ex_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_ex_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/forwardA" type="array">
+      <obj_property name="ElementShortName">forwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/forwardB" type="array">
+      <obj_property name="ElementShortName">forwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2635" type="group">
+      <obj_property name="label">forwardB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/mux3_1_forwardB/din1" type="array">
+         <obj_property name="ElementShortName">din1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/mux3_1_forwardB/din2" type="array">
+         <obj_property name="ElementShortName">din2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/mux3_1_forwardB/din3" type="array">
+         <obj_property name="ElementShortName">din3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/mux3_1_forwardB/sel" type="array">
+         <obj_property name="ElementShortName">sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/mux3_1_forwardB/dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3172" type="group">
+      <obj_property name="label">forward create</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/RegWrite_ex_mem_o" type="logic">
+         <obj_property name="ElementShortName">RegWrite_ex_mem_o</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_ex_mem_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/RegWrite_mem_wb_o" type="logic">
+         <obj_property name="ElementShortName">RegWrite_mem_wb_o</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_mem_wb_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/MemWrite_id_ex_o" type="logic">
+         <obj_property name="ElementShortName">MemWrite_id_ex_o</obj_property>
+         <obj_property name="ObjectShortName">MemWrite_id_ex_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/MemRead_ex_mem_o" type="logic">
+         <obj_property name="ElementShortName">MemRead_ex_mem_o</obj_property>
+         <obj_property name="ObjectShortName">MemRead_ex_mem_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/ALU_result_ex_mem_o" type="array">
+      <obj_property name="ElementShortName">ALU_result_ex_mem_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_ex_mem_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/ALU_result_mem_wb_o" type="array">
+      <obj_property name="ElementShortName">ALU_result_mem_wb_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_mem_wb_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/Rs1_ex_i" type="array">
+      <obj_property name="ElementShortName">Rs1_ex_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_ex_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/Rs2_ex_i" type="array">
+      <obj_property name="ElementShortName">Rs2_ex_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_ex_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/Rd_ex_mem_o" type="array">
+      <obj_property name="ElementShortName">Rd_ex_mem_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_ex_mem_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/Rd_mem_wb_o" type="array">
+      <obj_property name="ElementShortName">Rd_mem_wb_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_mem_wb_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/men_stage_inst/forwardC_mem_i" type="logic">
+      <obj_property name="ElementShortName">forwardC_mem_i</obj_property>
+      <obj_property name="ObjectShortName">forwardC_mem_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/men_stage_inst/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/men_stage_inst/ALU_result_mem_wb_o" type="array">
+      <obj_property name="ElementShortName">ALU_result_mem_wb_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_mem_wb_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/men_stage_inst/Wr_mem_data" type="array">
+      <obj_property name="ElementShortName">Wr_mem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wr_mem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/Rs1_id_ex_o" type="array">
+      <obj_property name="ElementShortName">Rs1_id_ex_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_id_ex_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/Rs2_id_ex_o" type="array">
+      <obj_property name="ElementShortName">Rs2_id_ex_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_id_ex_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/RegWrite_ex_mem_o" type="logic">
+      <obj_property name="ElementShortName">RegWrite_ex_mem_o</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_ex_mem_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/RegWrite_mem_wb_o" type="logic">
+      <obj_property name="ElementShortName">RegWrite_mem_wb_o</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_mem_wb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/MemRead_ex_mem_o" type="logic">
+      <obj_property name="ElementShortName">MemRead_ex_mem_o</obj_property>
+      <obj_property name="ObjectShortName">MemRead_ex_mem_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/MemWrite_id_ex_o" type="logic">
+      <obj_property name="ElementShortName">MemWrite_id_ex_o</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_id_ex_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/id_stage_inst/imme_id_o" type="array">
+      <obj_property name="ElementShortName">imme_id_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imme_id_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/ex_stage_inst/imme_ex_i" type="array">
+      <obj_property name="ElementShortName">imme_ex_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imme_ex_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/uut/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs" type="array">
+      <obj_property name="ElementShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

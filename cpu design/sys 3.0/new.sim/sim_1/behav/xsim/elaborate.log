@@ -1,0 +1,52 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramData/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c5a45b68a1bf4115948ade475b14fa4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_riscv_top_behav xil_defaultlib.tb_riscv_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'MemWrite_mem_wb_i' is not connected on this instance [C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu design/sys 3.0/new.srcs/sources_1/new/datapath.v:315]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data1' [C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu design/sys 3.0/new.srcs/sources_1/new/ex_stage.v:147]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.main_control
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_stage
+Compiling module xil_defaultlib.if_id_regs
+Compiling module xil_defaultlib.instr_decode
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.id_stage
+Compiling module xil_defaultlib.id_ex_regs
+Compiling module xil_defaultlib.Shifter
+Compiling module xil_defaultlib.cla_4
+Compiling module xil_defaultlib.cla_adder32
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.branch_judge
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.forward_units
+Compiling module xil_defaultlib.mux3_1
+Compiling module xil_defaultlib.ex_stage
+Compiling module xil_defaultlib.ex_mem_regs
+Compiling module xil_defaultlib.mem_stage
+Compiling module xil_defaultlib.mem_wb_regs
+Compiling module xil_defaultlib.wb_stage
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.riscv
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.data_memory1
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=50.37...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_clk_wiz
+Compiling module xil_defaultlib.clk_wiz
+Compiling module xil_defaultlib.vga
+Compiling module xil_defaultlib.riscv_top
+Compiling module xil_defaultlib.tb_riscv_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_riscv_top_behav

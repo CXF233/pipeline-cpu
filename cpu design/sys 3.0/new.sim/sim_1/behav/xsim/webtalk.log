@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Sep  5 16:24:47 2023
+# Process ID: 10764
+# Current directory: C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu design/sys 3.0/new.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu design/sys 3.0/new.sim/sim_1/behav/xsim/xsim.dir/tb_riscv_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu design/sys 3.0/new.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu design/sys 3.0/new.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Xuefeng/Desktop/5stage -notrace
+couldn't read file "C:/Users/Xuefeng/Desktop/5stage": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Sep  5 16:24:47 2023...

@@ -1,0 +1,19 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+F:/new/new.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+F:/new/new.srcs/sim_1/new/tb_riscv_top.v,1692616271,verilog,,,,tb_riscv_top,,,,,,,,
+F:/new/new.srcs/sources_1/new/alu.v,1692615803,verilog,,F:/new/new.srcs/sources_1/new/branch_judge.v,,Adder;Shifter;alu;cla_4;cla_adder32,,,,,,,,
+F:/new/new.srcs/sources_1/new/branch_judge.v,1692615841,verilog,,F:/new/new.srcs/sources_1/new/control.v,,branch_judge,,,,,,,,
+F:/new/new.srcs/sources_1/new/control.v,1692615879,verilog,,F:/new/new.srcs/sources_1/new/data_memory.v,F:/new/new.srcs/sources_1/new/define.v,alu_control;control;main_control,,,,,,,,
+F:/new/new.srcs/sources_1/new/data_memory.v,1692615934,verilog,,F:/new/new.srcs/sources_1/new/datapath.v,F:/new/new.srcs/sources_1/new/define.v,data_memory,,,,,,,,
+F:/new/new.srcs/sources_1/new/datapath.v,1692615989,verilog,,F:/new/new.srcs/sources_1/new/instr_decode.v,,datapath,,,,,,,,
+F:/new/new.srcs/sources_1/new/define.v,1692615749,verilog,,,,,,,,,,,,
+F:/new/new.srcs/sources_1/new/instr_decode.v,1692616034,verilog,,F:/new/new.srcs/sources_1/new/instr_memory.v,F:/new/new.srcs/sources_1/new/define.v,instr_decode,,,,,,,,
+F:/new/new.srcs/sources_1/new/instr_memory.v,1692616553,verilog,,F:/new/new.srcs/sources_1/new/mux.v,,instr_memory,,,,,,,,
+F:/new/new.srcs/sources_1/new/mux.v,1692616097,verilog,,F:/new/new.srcs/sources_1/new/pc_reg.v,,mux,,,,,,,,
+F:/new/new.srcs/sources_1/new/pc_reg.v,1692616346,verilog,,F:/new/new.srcs/sources_1/new/registers.v,F:/new/new.srcs/sources_1/new/define.v,pc_reg,,,,,,,,
+F:/new/new.srcs/sources_1/new/registers.v,1692616152,verilog,,F:/new/new.srcs/sources_1/new/riscv.v,F:/new/new.srcs/sources_1/new/define.v,registers,,,,,,,,
+F:/new/new.srcs/sources_1/new/riscv.v,1692616194,verilog,,F:/new/new.srcs/sources_1/new/riscv_top.v,,riscv,,,,,,,,
+F:/new/new.srcs/sources_1/new/riscv_top.v,1692616229,verilog,,F:/new/new.srcs/sim_1/new/tb_riscv_top.v,,riscv_top,,,,,,,,

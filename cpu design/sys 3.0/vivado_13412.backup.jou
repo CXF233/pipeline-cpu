@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Sep  5 10:48:05 2023
+# Process ID: 13412
+# Current directory: C:/Users/Xuefeng/Desktop/sys 3.0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11856 C:\Users\Xuefeng\Desktop\sys 3.0\new.xpr
+# Log file: C:/Users/Xuefeng/Desktop/sys 3.0/vivado.log
+# Journal file: C:/Users/Xuefeng/Desktop/sys 3.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Xuefeng/Desktop/sys 3.0/new.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+open_project {C:/Users/Xuefeng/Desktop/5stage pipeline cpu design/cpu code/zm 1.0/new.xpr}
+update_compile_order -fileset sources_1
+close_project
